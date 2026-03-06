@@ -3,11 +3,17 @@ Median Filter for PGM Images  This program applies a Median Filter on a Portable
 Features:
 
 Supports PGM files in ASCII format (P2).
+
 Implements two sorting algorithms:
+
 Bubble Sort (simpler, slower).
+
 Merge Sort (more efficient, faster for larger inputs).
+
 Reads an input image, applies a median filter, and writes the filtered image to an output file.
+
 Handles edge cases by replicating boundary pixels where the filter window overlaps the edges.
+
 How It Works
 Input Image: A PGM image file in ASCII format is read.
 Median Filter: A window of specified dimensions slides across the image, and the median pixel value within the window is calculated.
